@@ -1,0 +1,16 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 50% ;
+    margin-left:30px ;
+    align-self: center;
+}
+#inf{
+    position: relative;
+    margin-bottom:10px ;
+}
+#inf input{
+    position: absolute;
+    right:0px ;
+    width:70% ;
+}

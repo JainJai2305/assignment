@@ -1,0 +1,38 @@
+#filters{
+    display: flex;
+    flex-direction: row;
+}
+.filter{
+    margin-left:40px ;
+    margin-top: 40px;
+    width:200px;
+}
+.filter-list{
+    position:relative ;
+    align-items: center;
+    display:none;
+    position: absolute;
+    z-index: 20;
+}
+.filter-list>div:hover{
+    background-color:rgb(112, 45, 45) ;
+    color:rgb(112, 45, 45) ;
+    cursor: pointer;
+}
+.filter-button:hover{
+    background-color:rgb(112, 45, 45) ;
+    cursor: pointer;
+}
+.filter:hover .filter-list{
+    display:block ;
+}
+#reservation-table{
+    margin-top:100px ;
+    margin-left:100px ;
+    width:70% ;
+    
+}
+
+#reservation-table ,th, td{
+    border: 1px solid;
+}
